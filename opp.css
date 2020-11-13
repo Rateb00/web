@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.innpakning{
+    background-color: white;
+    height: 2115px;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.topp_intro{
+    background-color: #CCF8C822;
+    height: 750px;
+    width: auto;
+    padding: 5px;
+    float: center;
+}
+.om_myattendance{
+    background-color: orange;
+    height: 750px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 40px;
+}
+.velg_meny{
+    background-color: white;
+    height: 600px;
+    width: auto;
+    padding: 5px;
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.omoss {
+    transform: rotate(-5deg);
+    font-size: 50px;
+    height: .2rem;
+    width: 12rem;
+    background: orange;
+    margin-left:200px;
+    font-family: fantasy;
+    margin-top: 18px;
+    
+}
+
+.text {
+    border-left: 4px solid orange;
+    font-size: 40px;
+    padding: 5px;
+    font-family:sans-serif;
+
+}
+
+.tekst{
+    margin-left: 70px;
+     background-image: url(Skjermbilde.PNG);
+    background-repeat: no-repeat;
+    background-position: 700px;
+    background-size: 50%;
+}
+
+
+
+ 
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    
+}
+
+.tekst2 {
+     background-color:floralwhite;
+    height: 750px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.log{
+     background-color:sandybrown;
+    height: 500px;
+    width: 70%;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 15%;
+    margin-top: 4%;
+    
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.example {
+    width: 100%;
+    margin-top: 70px;
+
+  
+}
+
+ table.table1, th, td {
+  border-collapse: collapse;
+     padding: 60px;
+  text-align: center;   
+
+    
+}
+
+table.classtable {
+    border-collapse: collapse;
+     border: 1px solid black;
+    padding: 80px;
+    width: 100%;
+   margin-left: 18%;
+    margin-top: -3%;
+}
+
+.classtable th {
+     border: 2px solid black;
+    background-color: orange;
+}
+
+.classtable td {
+     border: 1px solid black;
+}
+
+.topp_bilde{
+    height: 750px;
+    background: url(../Medier/Skjermbilde1.PNG) right top no-repeat, url(../Medier/Skjermbilde2.PNG) left bottom no-repeat;
+    padding: 15px;
+    background-size: 450px, 500px, auto;
+    transition: 2s;
+}
+
+
+
+.topp_tekst{
+    max-width: 600px; /*slett*/
+    text-align: center;
+    font-family: "Segoe UI";
+    position:relative; /*abslout*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    transition: 2.5s;
+}
+
+
+
+.topp_bilde .topp_tekst button{
+    color: black;
+    border-color: black;
+    background-color: #e7e7e7;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5px;
+}
+
+.om_myattendance .tittel{
+    padding-left: 30px;
+    color: #444444;
+    font-family: Sansita;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left; 
+    display: block;
+    margin: auto;
+}
+
+.om_myattendance .tittel .tekst_line{
+    text-decoration: underline;
+}
+
+.alle-tekst-bokser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+.tekst-boks h2{
+    font-family: Sansita;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+
+
+.velg_menys{
+    background-color: white;
+    max-height: auto; 
+    padding: 30px;
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.velg_meny1s{
+    padding: 100px;
+    margin: 5px;
+    width: 350px;
+    background-color: #ECECEB;
+    text-align: center;
+    font-family: "Segoe UI";
+}
+
+
+
+.velg_meny2s{
+    padding: 100px;
+    margin: 5px;
+    width: 350px;
+    background-color: #ECECEB;
+    text-align: center;
+    font-family: "Segoe UI";
+}
+
+.topp_bilde{
+    height: 750px;
+    background: url(Skjermbilde1.png) right top no-repeat, url(Skjermbilde2.png) left bottom no-repeat;
+    padding: 15px;
+    background-size: 450px, 500px, auto;
+    transition: 2s;
+}
+
+
+
+.topp_tekst{
+    max-width: 600px; /*slett*/
+    text-align: center;
+    font-family: "Segoe UI";
+    position:relative; /*abslout*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    transition: 2.5s;
+}
+
+
+
+.topp_bilde .topp_tekst button{
+    color: black;
+    border-color: black;
+    background-color: #e7e7e7;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5px;
+
+
+
+}
+
+
+
+
+
+
+
